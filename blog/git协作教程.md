@@ -50,4 +50,4 @@
 
 * 发完pull request。理论上是需要master的管理员去确认同意，而我们这里只需要自己去同意一下就行了。具体方法就是点这个绿色的按钮：
 
-<img src="assets/merge.png" width=426px height=426px>
+<img src="assets/merge.png">

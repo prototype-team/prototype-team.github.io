@@ -3,7 +3,7 @@
 
 
 ### 协作是什么
-首先我们要知道协作是什么？ 协作就是大家一起在同一个仓库里，做出一个完整的项目。 也就是我们所有人写的代码都放到这个仓库。比如 prototype-team.github.io(https://github.com/prototype-team/prototype-team.github.io)这个仓库。
+首先我们要知道协作是什么？ 协作就是大家一起在同一个仓库里，做出一个完整的项目。 也就是我们所有人写的代码都放到这个仓库。比如 [prototype-team.github.io](https://github.com/prototype-team/prototype-team.github.io)这个仓库。
 
 ### 分支
 但是呢，我们大家不能一起去改这个仓库，这样容易出问题。虽然我们最终要把所有代码都搞到仓库的master分支里面。但是，我们每个人各自进行开发的时候却不能在master分支上做开发。

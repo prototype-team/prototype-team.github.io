@@ -24,7 +24,13 @@ html, body{
 	-o-background-size: cover;
 	background-size: cover;
 	background-color: black;
-	z-index: 99999; 
+	z-index: 99999;
+}
+.footer {
+	padding: 20px;
+}
+.footer p {
+	margin: 0;
 }
 .logo {
 	max-width:35em;
@@ -41,7 +47,7 @@ html, body{
 }
 .btn-primary:visited, btn-success:visited, btn-info:visited{
 	background:  rgba(0, 0, 0, 0);
-} 
+}
 .btn-primary:hover,  .btn-primary:active{
 	border-color: #007aff;
 	background-color: white;
@@ -98,7 +104,10 @@ html, body{
 .introduction-content {
 	width: 720px;
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
+	text-indent: 2em;
+	padding: 10px 20px;
+	border-radius: 10px;
 }
 .introduction-icon:visited, .introduction-icon:hover, introduction-icon:active {
 	background-color: black;
@@ -139,6 +148,9 @@ html, body{
 .member-icon:visited, .member-icon:hover, member-icon:active {
 	background-color: white;
 	color: rgb(96,210,211);
+}
+.member-btns {
+	padding-top: 20px;
 }
 .blog {
 	background-color: white;

@@ -1,1 +1,1 @@
-"use strict";$(function(){$("#mainnav a").click(function(){alert($(this).html())})});
+"use strict";$(function(){$("#mainnav a").click(function(){alert($(this).html())}),$(".jumbotron a.btn").click(function(){$(".jumbotron").hide()})});

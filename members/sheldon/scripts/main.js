@@ -1,0 +1,1 @@
+"use strict";$(function(){$("#mainnav a").click(function(){alert($(this).html())})});

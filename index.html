@@ -50,7 +50,7 @@
 			adsfad sfd sfa dsfd as fds ds fdsf sa fadsf sdf s
 			sadf adsf  sd sadf as fsd fasdf asdf adsf adsf a
 			adsf asdf sadf adsf sd asdf adsf adsf adsf ads
-			 adsf adsf adsf adsf adsf asdf a af 
+			 adsf adsf adsf adsf adsf asdf a af
 		</p>
 	</div>
 	<div class="team-github">
@@ -65,10 +65,22 @@
 		</p>
 	</div>
 	<div class="footer">
-
+		<div id="testAlert" class="alert alert-danger fade in" role="alert">
+			<button type="button" name="button" class="close" aria-label="Close" data-dismiss="alert">
+				<span aria-hidden="true" sr-only="true">&times;</span>
+			</button>
+		  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+		  <span class="sr-only">Error:</span>
+		  Enter a valid email address
+		</div>
 	</div>
 	<script src="./bootstrap/jquery-1.12.1.min.js" ></script>
 	<script src="./bootstrap/js/bootstrap.min.js" ></script>
 	<script src="./javascripts/js.js" ></script>
+	<script type="text/javascript">
+		$(document).on('close.bs.alert', 'div',function (e) {
+			console.log(this);
+		});
+	</script>
 </body>
 </html>
